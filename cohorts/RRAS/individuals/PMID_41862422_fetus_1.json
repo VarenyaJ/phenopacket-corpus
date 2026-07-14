@@ -1,0 +1,395 @@
+{
+  "id": "PMID_41862422_fetus_1",
+  "subject": {
+    "id": "fetus-1",
+    "sex": "MALE"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0008689",
+        "label": "Bilateral cryptorchidism"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0000034",
+        "label": "Hydrocele testis"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0000054",
+        "label": "Micropenis"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0000047",
+        "label": "Hypospadias"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000046",
+        "label": "Small scrotum"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0000075",
+        "label": "Renal duplication"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0000126",
+        "label": "Hydronephrosis"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0004719",
+        "label": "Hyperechogenic kidneys"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000021",
+        "label": "Megacystis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010956",
+        "label": "Fetal megacystis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002023",
+        "label": "Anal atresia"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0100702",
+        "label": "Arachnoid cyst"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0007099",
+        "label": "Chiari type I malformation"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0001287",
+        "label": "Meningitis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001195",
+        "label": "Single umbilical artery"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011409",
+        "label": "Abnormal placental membrane morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001561",
+        "label": "Polyhydramnios"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0010942",
+        "label": "Echogenic intracardiac focus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001520",
+        "label": "Large for gestational age"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002624",
+        "label": "Abnormal venous morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001629",
+        "label": "Ventricular septal defect"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001873",
+        "label": "Thrombocytopenia"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0001903",
+        "label": "Anemia"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0009826",
+        "label": "Limb undergrowth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001773",
+        "label": "Short foot"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0003974",
+        "label": "Absent radius"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004977",
+        "label": "Bilateral radial aplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001159",
+        "label": "Syndactyly"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0009623",
+        "label": "Proximal placement of thumb"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0040023",
+        "label": "Clinodactyly of the thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011304",
+        "label": "Broad thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0030084",
+        "label": "Clinodactyly"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002974",
+        "label": "Radioulnar synostosis"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0006433",
+        "label": "Radial ray deficiency"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0001763",
+        "label": "Pes planus"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0001169",
+        "label": "Broad palm"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000767",
+        "label": "Pectus excavatum"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002650",
+        "label": "Scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003416",
+        "label": "Spinal canal stenosis"
+      },
+      "excluded": true
+    },
+    {
+      "type": {
+        "id": "HP:0002937",
+        "label": "Hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008439",
+        "label": "Lumbar hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0007269",
+        "label": "Spinal muscular atrophy"
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jEXcOHVlyBsL5hV5REnKIBWN",
+      "progressStatus": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "OMIM:600098",
+          "label": "RAS VIRAL ONCOGENE"
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "fetus-1",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
+              "variationDescriptor": {
+                "id": "c68GtoT_RRAS2_NM_012250v6",
+                "geneContext": {
+                  "valueId": "HGNC:17271",
+                  "symbol": "RRAS2"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_012250.6:c.68G>T"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000011.10:g.14358803C>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_036382.2:p.(Gly23Val)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr11",
+                  "pos": 14358803,
+                  "ref": "C",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "term": {
+        "id": "OMIM:600098",
+        "label": "RAS VIRAL ONCOGENE"
+      },
+      "onset": {
+        "gestationalAge": {
+          "weeks": 20,
+          "days": 0
+        }
+      }
+    }
+  ],
+  "metaData": {
+    "created": "2026-07-14T17:39:00.183970Z",
+    "createdBy": "0009-0000-4429-6024",
+    "resources": [
+      {
+        "id": "hp",
+        "name": "human phenotype ontology",
+        "url": "http://purl.obolibrary.org/obo/hp.owl",
+        "version": "2026-06-23",
+        "namespacePrefix": "HP",
+        "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+      },
+      {
+        "id": "geno",
+        "name": "Genotype Ontology",
+        "url": "http://purl.obolibrary.org/obo/geno.owl",
+        "version": "2025-07-25",
+        "namespacePrefix": "GENO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/GENO_"
+      },
+      {
+        "id": "omim",
+        "name": "An Online Catalog of Human Genes and Genetic Disorders",
+        "url": "https://www.omim.org",
+        "version": "06/01/25",
+        "namespacePrefix": "OMIM",
+        "iriPrefix": "https://www.omim.org/entry/"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org",
+        "version": "06/01/25",
+        "namespacePrefix": "HGNC",
+        "iriPrefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      }
+    ],
+    "phenopacketSchemaVersion": "2",
+    "externalReferences": [
+      {
+        "id": "PMID:41862422",
+        "description": "De Novo RRAS2 Pathogenic Variant in a Fetus With Bilateral Radial Ray and Multisystem Anomalies."
+      }
+    ]
+  }
+}
