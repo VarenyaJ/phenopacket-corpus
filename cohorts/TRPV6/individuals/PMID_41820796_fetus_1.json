@@ -1,0 +1,257 @@
+{
+  "id": "PMID_41820796_fetus_1",
+  "subject": {
+    "id": "fetus-1",
+    "timeAtLastEncounter": {
+      "gestationalAge": {
+        "weeks": 26,
+        "days": 1
+      }
+    },
+    "vitalStatus": {
+      "status": "DECEASED"
+    },
+    "sex": "FEMALE"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0007957",
+        "label": "Corneal opacity"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012837",
+          "label": "Bilateral"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0000518",
+        "label": "Cataract"
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012837",
+          "label": "Bilateral"
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": "HP:0006487",
+        "label": "Bowing of the long bones"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000369",
+        "label": "Low-set ears"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000889",
+        "label": "Abnormal clavicle morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001547",
+        "label": "Abnormal rib cage morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000883",
+        "label": "Thin ribs"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004348",
+        "label": "Abnormality of bone mineral density"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0003026",
+        "label": "Short long bone"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001511",
+        "label": "Intrauterine growth retardation"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001667",
+        "label": "Right ventricular hypertrophy"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001631",
+        "label": "Atrial septal defect"
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "75rMcD5dvhzmrZ6V75QOafGz",
+      "progressStatus": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "OMIM:618188",
+          "label": "HYPERPARATHYROIDISM, TRANSIENT NEONATAL; HRPTTN"
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "fetus-1",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "LIKELY_PATHOGENIC",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
+              "variationDescriptor": {
+                "id": "c1286AtoG_TRPV6_NM_018646v6",
+                "geneContext": {
+                  "valueId": "HGNC:14006",
+                  "symbol": "TRPV6"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_018646.6:c.1286A>G"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000007.14:g.142875121T>C"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_061116.5:p.(Glu429Gly)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr7",
+                  "pos": 142875121,
+                  "ref": "T",
+                  "alt": "C"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          },
+          {
+            "subjectOrBiosampleId": "fetus-1",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "LIKELY_PATHOGENIC",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
+              "variationDescriptor": {
+                "id": "c1465GtoA_TRPV6_NM_018646v6",
+                "geneContext": {
+                  "valueId": "HGNC:14006",
+                  "symbol": "TRPV6"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_018646.6:c.1465G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000007.14:g.142874598C>T"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_061116.5:p.(Gly489Arg)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr7",
+                  "pos": 142874598,
+                  "ref": "C",
+                  "alt": "T"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "term": {
+        "id": "OMIM:618188",
+        "label": "HYPERPARATHYROIDISM, TRANSIENT NEONATAL; HRPTTN"
+      },
+      "onset": {
+        "gestationalAge": {
+          "weeks": 23,
+          "days": 1
+        }
+      }
+    }
+  ],
+  "metaData": {
+    "created": "2026-07-21T05:59:29.567071Z",
+    "createdBy": "0009-0000-4429-6024",
+    "resources": [
+      {
+        "id": "hp",
+        "name": "human phenotype ontology",
+        "url": "http://purl.obolibrary.org/obo/hp.owl",
+        "version": "2026-06-23",
+        "namespacePrefix": "HP",
+        "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+      },
+      {
+        "id": "geno",
+        "name": "Genotype Ontology",
+        "url": "http://purl.obolibrary.org/obo/geno.owl",
+        "version": "2025-07-25",
+        "namespacePrefix": "GENO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/GENO_"
+      },
+      {
+        "id": "omim",
+        "name": "An Online Catalog of Human Genes and Genetic Disorders",
+        "url": "https://www.omim.org",
+        "version": "06/01/25",
+        "namespacePrefix": "OMIM",
+        "iriPrefix": "https://www.omim.org/entry/"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org",
+        "version": "06/01/25",
+        "namespacePrefix": "HGNC",
+        "iriPrefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      }
+    ],
+    "phenopacketSchemaVersion": "2",
+    "externalReferences": [
+      {
+        "id": "PMID:41820796",
+        "description": "Expanding the Prenatal Phenotypic Spectrum of TRPV6 Variants With Ocular Anomalies."
+      }
+    ]
+  }
+}

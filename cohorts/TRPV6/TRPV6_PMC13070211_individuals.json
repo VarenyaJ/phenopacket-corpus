@@ -1,0 +1,185 @@
+{
+  "cohortType": "mendelian",
+  "diseaseList": [
+    {
+      "diseaseId": "OMIM:618188",
+      "diseaseLabel": "HYPERPARATHYROIDISM, TRANSIENT NEONATAL; HRPTTN",
+      "modeOfInheritanceList": [
+        {
+          "hpoId": "HP:0000007",
+          "hpoLabel": "Autosomal recessive inheritance",
+          "citation": "PMID:41820796"
+        }
+      ],
+      "geneTranscriptList": [
+        {
+          "hgncId": "HGNC:14006",
+          "geneSymbol": "TRPV6",
+          "transcript": "NM_018646.6"
+        }
+      ]
+    }
+  ],
+  "hpoHeaders": [
+    {
+      "hpoLabel": "Corneal opacity",
+      "hpoId": "HP:0007957"
+    },
+    {
+      "hpoLabel": "Cataract",
+      "hpoId": "HP:0000518"
+    },
+    {
+      "hpoLabel": "Bowing of the long bones",
+      "hpoId": "HP:0006487"
+    },
+    {
+      "hpoLabel": "Low-set ears",
+      "hpoId": "HP:0000369"
+    },
+    {
+      "hpoLabel": "Abnormal clavicle morphology",
+      "hpoId": "HP:0000889"
+    },
+    {
+      "hpoLabel": "Abnormal rib cage morphology",
+      "hpoId": "HP:0001547"
+    },
+    {
+      "hpoLabel": "Thin ribs",
+      "hpoId": "HP:0000883"
+    },
+    {
+      "hpoLabel": "Abnormality of bone mineral density",
+      "hpoId": "HP:0004348"
+    },
+    {
+      "hpoLabel": "Short long bone",
+      "hpoId": "HP:0003026"
+    },
+    {
+      "hpoLabel": "Intrauterine growth retardation",
+      "hpoId": "HP:0001511"
+    },
+    {
+      "hpoLabel": "Right ventricular hypertrophy",
+      "hpoId": "HP:0001667"
+    },
+    {
+      "hpoLabel": "Atrial septal defect",
+      "hpoId": "HP:0001631"
+    }
+  ],
+  "rows": [
+    {
+      "individualData": {
+        "pmid": "PMID:41820796",
+        "title": "Expanding the Prenatal Phenotypic Spectrum of TRPV6 Variants With Ocular Anomalies.",
+        "individualId": "fetus-1",
+        "comment": "Bilateral cataracts and bilateral corneal opacities were observed; bilateral modifiers were manually added to the exported Phenopacket. Compound heterozygous TRPV6 variants were confirmed in trans: NM_018646.6:c.1465G>A, p.(Gly489Arg), maternally inherited; and NM_018646.6:c.1286A>G, p.(Glu429Gly), paternally inherited. Both variants were classified as likely pathogenic in the publication.",
+        "ageOfOnset": "G23w1d",
+        "ageAtLastEncounter": "G26w1d",
+        "deceased": "yes",
+        "sex": "F"
+      },
+      "diseaseIdList": [
+        "OMIM:618188"
+      ],
+      "alleleCountMap": {
+        "c1465GtoA_TRPV6_NM_018646v6": 1,
+        "c1286AtoG_TRPV6_NM_018646v6": 1
+      },
+      "hpoData": [
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        }
+      ]
+    }
+  ],
+  "hgvsVariants": {
+    "c1465GtoA_TRPV6_NM_018646v6": {
+      "assembly": "hg38",
+      "chr": "chr7",
+      "position": 142874598,
+      "refAllele": "C",
+      "altAllele": "T",
+      "symbol": "TRPV6",
+      "hgncId": "HGNC:14006",
+      "hgvs": "c.1465G>A",
+      "transcript": "NM_018646.6",
+      "gHgvs": "NC_000007.14:g.142874598C>T",
+      "pHgvs": "NP_061116.5:p.(Gly489Arg)",
+      "variantKey": "c1465GtoA_TRPV6_NM_018646v6"
+    },
+    "c1286AtoG_TRPV6_NM_018646v6": {
+      "assembly": "hg38",
+      "chr": "chr7",
+      "position": 142875121,
+      "refAllele": "T",
+      "altAllele": "C",
+      "symbol": "TRPV6",
+      "hgncId": "HGNC:14006",
+      "hgvs": "c.1286A>G",
+      "transcript": "NM_018646.6",
+      "gHgvs": "NC_000007.14:g.142875121T>C",
+      "pHgvs": "NP_061116.5:p.(Glu429Gly)",
+      "variantKey": "c1286AtoG_TRPV6_NM_018646v6"
+    }
+  },
+  "structuralVariants": {},
+  "intergenicVariants": {},
+  "phetoolsSchemaVersion": "0.4",
+  "hpoVersion": "2026-06-23",
+  "cohortAcronym": "TRPV6_PMC13070211",
+  "curationHistory": [
+    {
+      "orcid": "0000-0002-0736-9199",
+      "date": "2025-01-09"
+    }
+  ]
+}
