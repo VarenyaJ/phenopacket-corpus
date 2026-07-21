@@ -76,7 +76,7 @@
         "pmid": "PMID:41820796",
         "title": "Expanding the Prenatal Phenotypic Spectrum of TRPV6 Variants With Ocular Anomalies.",
         "individualId": "fetus-1",
-        "comment": "",
+        "comment": "Bilateral cataracts and bilateral corneal opacities were observed; bilateral modifiers were manually added to the exported Phenopacket. Compound heterozygous TRPV6 variants were confirmed in trans: NM_018646.6:c.1465G>A, p.(Gly489Arg), maternally inherited; and NM_018646.6:c.1286A>G, p.(Glu429Gly), paternally inherited. Both variants were classified as likely pathogenic in the publication.",
         "ageOfOnset": "G23w1d",
         "ageAtLastEncounter": "G26w1d",
         "deceased": "yes",
@@ -142,20 +142,6 @@
     }
   ],
   "hgvsVariants": {
-    "c1286AtoG_TRPV6_NM_018646v6": {
-      "assembly": "hg38",
-      "chr": "chr7",
-      "position": 142875121,
-      "refAllele": "T",
-      "altAllele": "C",
-      "symbol": "TRPV6",
-      "hgncId": "HGNC:14006",
-      "hgvs": "c.1286A>G",
-      "transcript": "NM_018646.6",
-      "gHgvs": "NC_000007.14:g.142875121T>C",
-      "pHgvs": "NP_061116.5:p.(Glu429Gly)",
-      "variantKey": "c1286AtoG_TRPV6_NM_018646v6"
-    },
     "c1465GtoA_TRPV6_NM_018646v6": {
       "assembly": "hg38",
       "chr": "chr7",
@@ -169,6 +155,20 @@
       "gHgvs": "NC_000007.14:g.142874598C>T",
       "pHgvs": "NP_061116.5:p.(Gly489Arg)",
       "variantKey": "c1465GtoA_TRPV6_NM_018646v6"
+    },
+    "c1286AtoG_TRPV6_NM_018646v6": {
+      "assembly": "hg38",
+      "chr": "chr7",
+      "position": 142875121,
+      "refAllele": "T",
+      "altAllele": "C",
+      "symbol": "TRPV6",
+      "hgncId": "HGNC:14006",
+      "hgvs": "c.1286A>G",
+      "transcript": "NM_018646.6",
+      "gHgvs": "NC_000007.14:g.142875121T>C",
+      "pHgvs": "NP_061116.5:p.(Glu429Gly)",
+      "variantKey": "c1286AtoG_TRPV6_NM_018646v6"
     }
   },
   "structuralVariants": {},

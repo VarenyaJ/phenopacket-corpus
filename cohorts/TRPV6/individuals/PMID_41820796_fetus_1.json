@@ -18,13 +18,25 @@
       "type": {
         "id": "HP:0007957",
         "label": "Corneal opacity"
-      }
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012837",
+          "label": "Bilateral"
+        }
+      ]
     },
     {
       "type": {
         "id": "HP:0000518",
         "label": "Cataract"
-      }
+      },
+      "modifiers": [
+        {
+          "id": "HP:0012837",
+          "label": "Bilateral"
+        }
+      ]
     },
     {
       "type": {
@@ -89,7 +101,7 @@
   ],
   "interpretations": [
     {
-      "id": "WTGgHltL7bs1j3qkHZXWJoOt",
+      "id": "75rMcD5dvhzmrZ6V75QOafGz",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
@@ -101,48 +113,7 @@
             "subjectOrBiosampleId": "fetus-1",
             "interpretationStatus": "CAUSATIVE",
             "variantInterpretation": {
-              "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
-              "variationDescriptor": {
-                "id": "c1465GtoA_TRPV6_NM_018646v6",
-                "geneContext": {
-                  "valueId": "HGNC:14006",
-                  "symbol": "TRPV6"
-                },
-                "expressions": [
-                  {
-                    "syntax": "hgvs.c",
-                    "value": "NM_018646.6:c.1465G>A"
-                  },
-                  {
-                    "syntax": "hgvs.g",
-                    "value": "NC_000007.14:g.142874598C>T"
-                  },
-                  {
-                    "syntax": "hgvs.p",
-                    "value": "NP_061116.5:p.(Gly489Arg)"
-                  }
-                ],
-                "vcfRecord": {
-                  "genomeAssembly": "hg38",
-                  "chrom": "chr7",
-                  "pos": 142874598,
-                  "ref": "C",
-                  "alt": "T"
-                },
-                "moleculeContext": "genomic",
-                "allelicState": {
-                  "id": "GENO:0000135",
-                  "label": "heterozygous"
-                }
-              }
-            }
-          },
-          {
-            "subjectOrBiosampleId": "fetus-1",
-            "interpretationStatus": "CAUSATIVE",
-            "variantInterpretation": {
-              "acmgPathogenicityClassification": "PATHOGENIC",
+              "acmgPathogenicityClassification": "LIKELY_PATHOGENIC",
               "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
                 "id": "c1286AtoG_TRPV6_NM_018646v6",
@@ -178,6 +149,47 @@
                 }
               }
             }
+          },
+          {
+            "subjectOrBiosampleId": "fetus-1",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "LIKELY_PATHOGENIC",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
+              "variationDescriptor": {
+                "id": "c1465GtoA_TRPV6_NM_018646v6",
+                "geneContext": {
+                  "valueId": "HGNC:14006",
+                  "symbol": "TRPV6"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_018646.6:c.1465G>A"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000007.14:g.142874598C>T"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_061116.5:p.(Gly489Arg)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr7",
+                  "pos": 142874598,
+                  "ref": "C",
+                  "alt": "T"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
           }
         ]
       }
@@ -198,7 +210,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-21T04:50:17.088315Z",
+    "created": "2026-07-21T05:59:29.567071Z",
     "createdBy": "0009-0000-4429-6024",
     "resources": [
       {
