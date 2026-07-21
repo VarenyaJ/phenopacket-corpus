@@ -1,0 +1,234 @@
+{
+  "cohortType": "mendelian",
+  "diseaseList": [
+    {
+      "diseaseId": "OMIM:618624",
+      "diseaseLabel": "NOONAN SYNDROME 12; NS12",
+      "modeOfInheritanceList": [
+        {
+          "hpoId": "HP:0000006",
+          "hpoLabel": "Autosomal dominant inheritance",
+          "citation": "PMID:41862422"
+        }
+      ],
+      "geneTranscriptList": [
+        {
+          "hgncId": "HGNC:17271",
+          "geneSymbol": "RRAS2",
+          "transcript": "NM_012250.6"
+        }
+      ]
+    }
+  ],
+  "hpoHeaders": [
+    {
+      "hpoLabel": "Abnormal pulmonary vein morphology",
+      "hpoId": "HP:0030968"
+    },
+    {
+      "hpoLabel": "Bilateral fetal pyelectasis",
+      "hpoId": "HP:0011129"
+    },
+    {
+      "hpoLabel": "Dilatation of the renal pelvis",
+      "hpoId": "HP:0010946"
+    },
+    {
+      "hpoLabel": "Hyperechogenic kidneys",
+      "hpoId": "HP:0004719"
+    },
+    {
+      "hpoLabel": "Megacystis",
+      "hpoId": "HP:0000021"
+    },
+    {
+      "hpoLabel": "Fetal megacystis",
+      "hpoId": "HP:0010956"
+    },
+    {
+      "hpoLabel": "Bilateral radial aplasia",
+      "hpoId": "HP:0004977"
+    },
+    {
+      "hpoLabel": "Broad thumb",
+      "hpoId": "HP:0011304"
+    },
+    {
+      "hpoLabel": "Curved thumb phalanx",
+      "hpoId": "HP:0009653"
+    },
+    {
+      "hpoLabel": "Clinodactyly of the 2nd finger",
+      "hpoId": "HP:0040022"
+    },
+    {
+      "hpoLabel": "Limb undergrowth",
+      "hpoId": "HP:0009826"
+    },
+    {
+      "hpoLabel": "Scoliosis",
+      "hpoId": "HP:0002650"
+    },
+    {
+      "hpoLabel": "Hemivertebrae",
+      "hpoId": "HP:0002937"
+    },
+    {
+      "hpoLabel": "Lumbar hemivertebrae",
+      "hpoId": "HP:0008439"
+    },
+    {
+      "hpoLabel": "Echogenic intracardiac focus",
+      "hpoId": "HP:0010942"
+    },
+    {
+      "hpoLabel": "Single umbilical artery",
+      "hpoId": "HP:0001195"
+    },
+    {
+      "hpoLabel": "Abnormal placental membrane morphology",
+      "hpoId": "HP:0011409"
+    },
+    {
+      "hpoLabel": "Large for gestational age",
+      "hpoId": "HP:0001520"
+    },
+    {
+      "hpoLabel": "Abnormal venous morphology",
+      "hpoId": "HP:0002624"
+    },
+    {
+      "hpoLabel": "Ventricular septal defect",
+      "hpoId": "HP:0001629"
+    }
+  ],
+  "rows": [
+    {
+      "individualData": {
+        "pmid": "PMID:41862422",
+        "title": "De Novo RRAS2 Pathogenic Variant in a Fetus With Bilateral Radial Ray and Multisystem Anomalies.",
+        "individualId": "fetus-1",
+        "comment": "",
+        "ageOfOnset": "G20w",
+        "ageAtLastEncounter": "na",
+        "deceased": "na",
+        "sex": "M"
+      },
+      "diseaseIdList": [
+        "OMIM:618624"
+      ],
+      "alleleCountMap": {
+        "c68GtoT_RRAS2_NM_012250v6": 1
+      },
+      "hpoData": [
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        },
+        {
+          "type": "Observed",
+          "modifiers": []
+        }
+      ]
+    }
+  ],
+  "hgvsVariants": {
+    "c68GtoT_RRAS2_NM_012250v6": {
+      "assembly": "hg38",
+      "chr": "chr11",
+      "position": 14358803,
+      "refAllele": "C",
+      "altAllele": "A",
+      "symbol": "RRAS2",
+      "hgncId": "HGNC:17271",
+      "hgvs": "c.68G>T",
+      "transcript": "NM_012250.6",
+      "gHgvs": "NC_000011.10:g.14358803C>A",
+      "pHgvs": "NP_036382.2:p.(Gly23Val)",
+      "variantKey": "c68GtoT_RRAS2_NM_012250v6"
+    }
+  },
+  "structuralVariants": {},
+  "intergenicVariants": {},
+  "phetoolsSchemaVersion": "0.4",
+  "hpoVersion": "2026-06-23",
+  "cohortAcronym": "RRAS2_RRAS2_RRAS2_CASE",
+  "curationHistory": [
+    {
+      "orcid": "0000-0002-0736-9199",
+      "date": "2025-01-09"
+    }
+  ]
+}
