@@ -1,0 +1,243 @@
+{
+  "id": "PMID_41862422_fetus_1",
+  "subject": {
+    "id": "fetus-1",
+    "sex": "MALE"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0030968",
+        "label": "Abnormal pulmonary vein morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011129",
+        "label": "Bilateral fetal pyelectasis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010946",
+        "label": "Dilatation of the renal pelvis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004719",
+        "label": "Hyperechogenic kidneys"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0000021",
+        "label": "Megacystis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010956",
+        "label": "Fetal megacystis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0004977",
+        "label": "Bilateral radial aplasia"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011304",
+        "label": "Broad thumb"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009653",
+        "label": "Curved thumb phalanx"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0040022",
+        "label": "Clinodactyly of the 2nd finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009826",
+        "label": "Limb undergrowth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002650",
+        "label": "Scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002937",
+        "label": "Hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008439",
+        "label": "Lumbar hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010942",
+        "label": "Echogenic intracardiac focus"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001195",
+        "label": "Single umbilical artery"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0011409",
+        "label": "Abnormal placental membrane morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001520",
+        "label": "Large for gestational age"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002624",
+        "label": "Abnormal venous morphology"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0001629",
+        "label": "Ventricular septal defect"
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "5PcMHAX1AKQpKVFkswNNyOFu",
+      "progressStatus": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "OMIM:618624",
+          "label": "NOONAN SYNDROME 12; NS12"
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "fetus-1",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
+              "variationDescriptor": {
+                "id": "c68GtoT_RRAS2_NM_012250v6",
+                "geneContext": {
+                  "valueId": "HGNC:17271",
+                  "symbol": "RRAS2"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_012250.6:c.68G>T"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000011.10:g.14358803C>A"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_036382.2:p.(Gly23Val)"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "hg38",
+                  "chrom": "chr11",
+                  "pos": 14358803,
+                  "ref": "C",
+                  "alt": "A"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "term": {
+        "id": "OMIM:618624",
+        "label": "NOONAN SYNDROME 12; NS12"
+      },
+      "onset": {
+        "gestationalAge": {
+          "weeks": 20,
+          "days": 0
+        }
+      }
+    }
+  ],
+  "metaData": {
+    "created": "2026-07-20T23:14:28.784215Z",
+    "createdBy": "0009-0000-4429-6024",
+    "resources": [
+      {
+        "id": "hp",
+        "name": "human phenotype ontology",
+        "url": "http://purl.obolibrary.org/obo/hp.owl",
+        "version": "2026-06-23",
+        "namespacePrefix": "HP",
+        "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+      },
+      {
+        "id": "geno",
+        "name": "Genotype Ontology",
+        "url": "http://purl.obolibrary.org/obo/geno.owl",
+        "version": "2025-07-25",
+        "namespacePrefix": "GENO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/GENO_"
+      },
+      {
+        "id": "omim",
+        "name": "An Online Catalog of Human Genes and Genetic Disorders",
+        "url": "https://www.omim.org",
+        "version": "06/01/25",
+        "namespacePrefix": "OMIM",
+        "iriPrefix": "https://www.omim.org/entry/"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org",
+        "version": "06/01/25",
+        "namespacePrefix": "HGNC",
+        "iriPrefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      }
+    ],
+    "phenopacketSchemaVersion": "2",
+    "externalReferences": [
+      {
+        "id": "PMID:41862422",
+        "description": "De Novo RRAS2 Pathogenic Variant in a Fetus With Bilateral Radial Ray and Multisystem Anomalies."
+      }
+    ]
+  }
+}
