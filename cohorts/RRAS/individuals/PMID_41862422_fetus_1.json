@@ -7,51 +7,21 @@
   "phenotypicFeatures": [
     {
       "type": {
-        "id": "HP:0008689",
-        "label": "Bilateral cryptorchidism"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0000034",
-        "label": "Hydrocele testis"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0000054",
-        "label": "Micropenis"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0000047",
-        "label": "Hypospadias"
+        "id": "HP:0030968",
+        "label": "Abnormal pulmonary vein morphology"
       }
     },
     {
       "type": {
-        "id": "HP:0000046",
-        "label": "Small scrotum"
-      },
-      "excluded": true
+        "id": "HP:0011129",
+        "label": "Bilateral fetal pyelectasis"
+      }
     },
     {
       "type": {
-        "id": "HP:0000075",
-        "label": "Renal duplication"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0000126",
-        "label": "Hydronephrosis"
-      },
-      "excluded": true
+        "id": "HP:0010946",
+        "label": "Dilatation of the renal pelvis"
+      }
     },
     {
       "type": {
@@ -73,29 +43,56 @@
     },
     {
       "type": {
-        "id": "HP:0002023",
-        "label": "Anal atresia"
-      },
-      "excluded": true
+        "id": "HP:0004977",
+        "label": "Bilateral radial aplasia"
+      }
     },
     {
       "type": {
-        "id": "HP:0100702",
-        "label": "Arachnoid cyst"
-      },
-      "excluded": true
+        "id": "HP:0011304",
+        "label": "Broad thumb"
+      }
     },
     {
       "type": {
-        "id": "HP:0007099",
-        "label": "Chiari type I malformation"
-      },
-      "excluded": true
+        "id": "HP:0009653",
+        "label": "Curved thumb phalanx"
+      }
     },
     {
       "type": {
-        "id": "HP:0001287",
-        "label": "Meningitis"
+        "id": "HP:0040022",
+        "label": "Clinodactyly of the 2nd finger"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0009826",
+        "label": "Limb undergrowth"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002650",
+        "label": "Scoliosis"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0002937",
+        "label": "Hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0008439",
+        "label": "Lumbar hemivertebrae"
+      }
+    },
+    {
+      "type": {
+        "id": "HP:0010942",
+        "label": "Echogenic intracardiac focus"
       }
     },
     {
@@ -108,19 +105,6 @@
       "type": {
         "id": "HP:0011409",
         "label": "Abnormal placental membrane morphology"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001561",
-        "label": "Polyhydramnios"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0010942",
-        "label": "Echogenic intracardiac focus"
       }
     },
     {
@@ -140,152 +124,16 @@
         "id": "HP:0001629",
         "label": "Ventricular septal defect"
       }
-    },
-    {
-      "type": {
-        "id": "HP:0001873",
-        "label": "Thrombocytopenia"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0001903",
-        "label": "Anemia"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0009826",
-        "label": "Limb undergrowth"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001773",
-        "label": "Short foot"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0003974",
-        "label": "Absent radius"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0004977",
-        "label": "Bilateral radial aplasia"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0001159",
-        "label": "Syndactyly"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0009623",
-        "label": "Proximal placement of thumb"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0040023",
-        "label": "Clinodactyly of the thumb"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0011304",
-        "label": "Broad thumb"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0030084",
-        "label": "Clinodactyly"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0002974",
-        "label": "Radioulnar synostosis"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0006433",
-        "label": "Radial ray deficiency"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0001763",
-        "label": "Pes planus"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0001169",
-        "label": "Broad palm"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0000767",
-        "label": "Pectus excavatum"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0002650",
-        "label": "Scoliosis"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0003416",
-        "label": "Spinal canal stenosis"
-      },
-      "excluded": true
-    },
-    {
-      "type": {
-        "id": "HP:0002937",
-        "label": "Hemivertebrae"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0008439",
-        "label": "Lumbar hemivertebrae"
-      }
-    },
-    {
-      "type": {
-        "id": "HP:0007269",
-        "label": "Spinal muscular atrophy"
-      }
     }
   ],
   "interpretations": [
     {
-      "id": "jEXcOHVlyBsL5hV5REnKIBWN",
+      "id": "5PcMHAX1AKQpKVFkswNNyOFu",
       "progressStatus": "SOLVED",
       "diagnosis": {
         "disease": {
-          "id": "OMIM:600098",
-          "label": "RAS VIRAL ONCOGENE"
+          "id": "OMIM:618624",
+          "label": "NOONAN SYNDROME 12; NS12"
         },
         "genomicInterpretations": [
           {
@@ -336,8 +184,8 @@
   "diseases": [
     {
       "term": {
-        "id": "OMIM:600098",
-        "label": "RAS VIRAL ONCOGENE"
+        "id": "OMIM:618624",
+        "label": "NOONAN SYNDROME 12; NS12"
       },
       "onset": {
         "gestationalAge": {
@@ -348,7 +196,7 @@
     }
   ],
   "metaData": {
-    "created": "2026-07-14T17:39:00.183970Z",
+    "created": "2026-07-20T23:14:28.784215Z",
     "createdBy": "0009-0000-4429-6024",
     "resources": [
       {

@@ -2,8 +2,8 @@
   "cohortType": "mendelian",
   "diseaseList": [
     {
-      "diseaseId": "OMIM:600098",
-      "diseaseLabel": "RAS VIRAL ONCOGENE",
+      "diseaseId": "OMIM:618624",
+      "diseaseLabel": "NOONAN SYNDROME 12; NS12",
       "modeOfInheritanceList": [
         {
           "hpoId": "HP:0000006",
@@ -22,32 +22,16 @@
   ],
   "hpoHeaders": [
     {
-      "hpoLabel": "Bilateral cryptorchidism",
-      "hpoId": "HP:0008689"
+      "hpoLabel": "Abnormal pulmonary vein morphology",
+      "hpoId": "HP:0030968"
     },
     {
-      "hpoLabel": "Hydrocele testis",
-      "hpoId": "HP:0000034"
+      "hpoLabel": "Bilateral fetal pyelectasis",
+      "hpoId": "HP:0011129"
     },
     {
-      "hpoLabel": "Micropenis",
-      "hpoId": "HP:0000054"
-    },
-    {
-      "hpoLabel": "Hypospadias",
-      "hpoId": "HP:0000047"
-    },
-    {
-      "hpoLabel": "Small scrotum",
-      "hpoId": "HP:0000046"
-    },
-    {
-      "hpoLabel": "Renal duplication",
-      "hpoId": "HP:0000075"
-    },
-    {
-      "hpoLabel": "Hydronephrosis",
-      "hpoId": "HP:0000126"
+      "hpoLabel": "Dilatation of the renal pelvis",
+      "hpoId": "HP:0010946"
     },
     {
       "hpoLabel": "Hyperechogenic kidneys",
@@ -62,20 +46,40 @@
       "hpoId": "HP:0010956"
     },
     {
-      "hpoLabel": "Anal atresia",
-      "hpoId": "HP:0002023"
+      "hpoLabel": "Bilateral radial aplasia",
+      "hpoId": "HP:0004977"
     },
     {
-      "hpoLabel": "Arachnoid cyst",
-      "hpoId": "HP:0100702"
+      "hpoLabel": "Broad thumb",
+      "hpoId": "HP:0011304"
     },
     {
-      "hpoLabel": "Chiari type I malformation",
-      "hpoId": "HP:0007099"
+      "hpoLabel": "Curved thumb phalanx",
+      "hpoId": "HP:0009653"
     },
     {
-      "hpoLabel": "Meningitis",
-      "hpoId": "HP:0001287"
+      "hpoLabel": "Clinodactyly of the 2nd finger",
+      "hpoId": "HP:0040022"
+    },
+    {
+      "hpoLabel": "Limb undergrowth",
+      "hpoId": "HP:0009826"
+    },
+    {
+      "hpoLabel": "Scoliosis",
+      "hpoId": "HP:0002650"
+    },
+    {
+      "hpoLabel": "Hemivertebrae",
+      "hpoId": "HP:0002937"
+    },
+    {
+      "hpoLabel": "Lumbar hemivertebrae",
+      "hpoId": "HP:0008439"
+    },
+    {
+      "hpoLabel": "Echogenic intracardiac focus",
+      "hpoId": "HP:0010942"
     },
     {
       "hpoLabel": "Single umbilical artery",
@@ -84,14 +88,6 @@
     {
       "hpoLabel": "Abnormal placental membrane morphology",
       "hpoId": "HP:0011409"
-    },
-    {
-      "hpoLabel": "Polyhydramnios",
-      "hpoId": "HP:0001561"
-    },
-    {
-      "hpoLabel": "Echogenic intracardiac focus",
-      "hpoId": "HP:0010942"
     },
     {
       "hpoLabel": "Large for gestational age",
@@ -104,90 +100,6 @@
     {
       "hpoLabel": "Ventricular septal defect",
       "hpoId": "HP:0001629"
-    },
-    {
-      "hpoLabel": "Thrombocytopenia",
-      "hpoId": "HP:0001873"
-    },
-    {
-      "hpoLabel": "Anemia",
-      "hpoId": "HP:0001903"
-    },
-    {
-      "hpoLabel": "Limb undergrowth",
-      "hpoId": "HP:0009826"
-    },
-    {
-      "hpoLabel": "Short foot",
-      "hpoId": "HP:0001773"
-    },
-    {
-      "hpoLabel": "Absent radius",
-      "hpoId": "HP:0003974"
-    },
-    {
-      "hpoLabel": "Bilateral radial aplasia",
-      "hpoId": "HP:0004977"
-    },
-    {
-      "hpoLabel": "Syndactyly",
-      "hpoId": "HP:0001159"
-    },
-    {
-      "hpoLabel": "Proximal placement of thumb",
-      "hpoId": "HP:0009623"
-    },
-    {
-      "hpoLabel": "Clinodactyly of the thumb",
-      "hpoId": "HP:0040023"
-    },
-    {
-      "hpoLabel": "Broad thumb",
-      "hpoId": "HP:0011304"
-    },
-    {
-      "hpoLabel": "Clinodactyly",
-      "hpoId": "HP:0030084"
-    },
-    {
-      "hpoLabel": "Radioulnar synostosis",
-      "hpoId": "HP:0002974"
-    },
-    {
-      "hpoLabel": "Radial ray deficiency",
-      "hpoId": "HP:0006433"
-    },
-    {
-      "hpoLabel": "Pes planus",
-      "hpoId": "HP:0001763"
-    },
-    {
-      "hpoLabel": "Broad palm",
-      "hpoId": "HP:0001169"
-    },
-    {
-      "hpoLabel": "Pectus excavatum",
-      "hpoId": "HP:0000767"
-    },
-    {
-      "hpoLabel": "Scoliosis",
-      "hpoId": "HP:0002650"
-    },
-    {
-      "hpoLabel": "Spinal canal stenosis",
-      "hpoId": "HP:0003416"
-    },
-    {
-      "hpoLabel": "Hemivertebrae",
-      "hpoId": "HP:0002937"
-    },
-    {
-      "hpoLabel": "Lumbar hemivertebrae",
-      "hpoId": "HP:0008439"
-    },
-    {
-      "hpoLabel": "Spinal muscular atrophy",
-      "hpoId": "HP:0007269"
     }
   ],
   "rows": [
@@ -203,41 +115,13 @@
         "sex": "M"
       },
       "diseaseIdList": [
-        "OMIM:600098"
+        "OMIM:618624"
       ],
       "alleleCountMap": {
         "c68GtoT_RRAS2_NM_012250v6": 1
       },
       "hpoData": [
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
           "type": "Observed",
           "modifiers": []
         },
@@ -250,31 +134,7 @@
           "modifiers": []
         },
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
           "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
           "modifiers": []
         },
         {
@@ -294,22 +154,6 @@
           "modifiers": []
         },
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
           "type": "Observed",
           "modifiers": []
         },
@@ -318,11 +162,7 @@
           "modifiers": []
         },
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
+          "type": "Observed",
           "modifiers": []
         },
         {
@@ -338,15 +178,7 @@
           "modifiers": []
         },
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
+          "type": "Observed",
           "modifiers": []
         },
         {
@@ -354,15 +186,7 @@
           "modifiers": []
         },
         {
-          "type": "Excluded",
-          "modifiers": []
-        },
-        {
           "type": "Observed",
-          "modifiers": []
-        },
-        {
-          "type": "Excluded",
           "modifiers": []
         },
         {
@@ -400,7 +224,7 @@
   "intergenicVariants": {},
   "phetoolsSchemaVersion": "0.4",
   "hpoVersion": "2026-06-23",
-  "cohortAcronym": "RRAS2_RRAS2_CASE",
+  "cohortAcronym": "RRAS2_RRAS2_RRAS2_CASE",
   "curationHistory": [
     {
       "orcid": "0000-0002-0736-9199",
